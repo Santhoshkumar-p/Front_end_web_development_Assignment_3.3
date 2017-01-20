@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Online Payment</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="mastersection">
+        <h4>Step 1: Your details</h4>
+        <section>
+            <p>Name</p><input type="text" name="name" placeholder="First and Last name">
+        </section>
+        <section>
+            <p>Email</p><input type="text" name="email" placeholder="example@domain.com">
+        </section>
+        <section>
+            <p>Phone</p><input type="text" name="phone" placeholder="e.g. +447500000000">     
+        </section>
+
+        <h4>Step 1: Delivery address</h4>
+        <section>
+            <p class="info" style="margin-right: 100px;">Address</p><textarea></textarea>
+        </section>
+        <section>
+            <p style="margin-right: 100px;">Post code</p><input type="text" name="post">
+        </section>
+        <section>
+            <p style="margin-right: 100px;">Country</p>
+            <input type="text" name="country" style="width: 320px">
+        </section>
+        
+        <h4>Step 1: Card details</h4>
+        <section class="transaction">
+            <p>Card Type</p>
+            <form>
+                <input type="radio" name="card" value="visa" style="width: 30px;height: 25px;"><img src="visa.png">
+                </input>
+                <input type="radio" name="card" value="amex" style="width: 30px;height: 25px;"><img src="amex.png">
+                </input>
+                <input type="radio" name="card" value="mastercard" style="width: 30px;height: 25px;"><img src="mas.png">
+                </input>
+            </form>
+        </section>
+        <section>
+            <p>Card number</p><input type="text" name="card">
+        </section>
+        <section>
+            <p>Security code</p><input type="text" name="security">
+        </section>
+        <section>
+            <p>Name on card</p><input type="text" name="cardholder" placeholder="Exact name as on the card">
+        </section><br>
+        <form>
+        <input type="submit" name="submit" value="BUY IT!">
+        </form>
+    </section>
+    
+</body>
+</html>
